@@ -54,5 +54,14 @@
     "vue-cli-plugin-storybook": "^2.1.0",
     "vue-jest": "^5.0.0-0",
     "vue-loader": "^16.3.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
   }
 }
