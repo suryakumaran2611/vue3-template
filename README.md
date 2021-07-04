@@ -33,6 +33,5 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
 ### StoryBook
-https://storybook.js.org/blog/storybook-vue3/
+https://storybook.js.org/
